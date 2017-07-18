@@ -8,8 +8,8 @@ def sumImperative(list: List[Int]) = {
 
 //funct
 def sumFunctional(list; List[int]) = {
-  list.foldLeft(0) { (carry, i) =>
-    carryover + i
+  list.foldLeft(0) { (carryover, i) =>
+    carry + i
   }
 }
 
